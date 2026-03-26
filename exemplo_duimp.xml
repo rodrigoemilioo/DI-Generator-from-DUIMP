@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    ARQUIVO DE TESTE – DUIMP FICTÍCIA
+    Baseado no padrão real da DUIMP 26BR0000295202-6
+    Use este arquivo para testar o conversor DUIMP → DI
+-->
+<duimp>
+  <cabecalho>
+    <numeroDuimp>26BR0000295202-6</numeroDuimp>
+    <cnpjImportador>07.872.326/0001-58</cnpjImportador>
+    <nomeImportador>CAPITAL TRADE IMPORTACAO E EXPORTACAO LTDA</nomeImportador>
+    <cnpjAdquirente>00.745.346/0006-23</cnpjAdquirente>
+    <nomeAdquirente>BIBA'S COMERCIO INTERNACIONAL EIRELI</nomeAdquirente>
+    <refCapitalTrade>OCCT02665/26</refCapitalTrade>
+    <refCliente>PO-25170-8</refCliente>
+    <fatura>25170-8</fatura>
+    <conhecimentoCarga>TCSH2512452</conhecimentoCarga>
+    <container>MSDU5441903</container>
+    <navio>MSC PALAK</navio>
+    <dataEmbarque>06/01/2026</dataEmbarque>
+    <dataChegada>14/03/2026</dataChegada>
+    <valorFobBrl>29304.43</valorFobBrl>
+    <valorFreteBrl>6030.60</valorFreteBrl>
+    <valorAduaneiro>35335.03</valorAduaneiro>
+    <taxaCambio>5.2440</taxaCambio>
+    <canal>Verde</canal>
+    <paisProcedencia>China, República Popular - CN</paisProcedencia>
+    <situacao>Desembaraçada</situacao>
+    <unidadeDespacho>0927800 - ITAJAI</unidadeDespacho>
+    <recinto>9101602 - PORTONAVE S/A</recinto>
+  </cabecalho>
+
+  <adicoes>
+
+    <!-- ADIÇÃO 1: Farol Direito Fiat Argo/Cronos -->
+    <adicao>
+      <numeroAdicao>00001</numeroAdicao>
+      <ncm>8512.2011</ncm>
+      <descricao>FAROL LADO DIREITO DE PLASTICO, PARA FIAT, MODELO</descricao>
+      <detalhamento>FAROL LADO DIREITO DE PLASTICO, PARA FIAT, MODELO: ARGO CRONOS, ANO: 2018 (59587) - COD. BBS1649001R</detalhamento>
+      <codigoProduto>34135</codigoProduto>
+      <fabricante>CHANGZHOU ZHONGLONG VEHICLE ACCESSORIES CO. LTD</fabricante>
+      <paisOrigem>China, República Popular - CN</paisOrigem>
+      <aplicacao>Revenda</aplicacao>
+      <condicao>Nova</condicao>
+      <unidade>UN</unidade>
+      <quantidade>100</quantidade>
+      <valorUnitario>7.3200</valorUnitario>
+      <valorCondicaoVenda>732.00</valorCondicaoVenda>
+      <pesoLiquido>385.00</pesoLiquido>
+      <regimeTributacaoII>RECOLHIMENTO INTEGRAL</regimeTributacaoII>
+      <regimeTributacaoIPI>RECOLHIMENTO INTEGRAL</regimeTributacaoIPI>
+      <!-- Impostos deixados em branco para demonstrar cálculo automático -->
+      <iiAliquota>18.0</iiAliquota>
+      <iiValor>0</iiValor>
+      <ipiAliquota>5.0</ipiAliquota>
+      <ipiValor>0</ipiValor>
+      <pisAliquota>2.10</pisAliquota>
+      <pisValor>0</pisValor>
+      <cofinsAliquota>9.65</cofinsAliquota>
+      <cofinsValor>0</cofinsValor>
+      <icmsAliquota>18.0</icmsAliquota>
+      <icmsValor>0</icmsValor>
+    </adicao>
+
+    <!-- ADIÇÃO 2: Farol Esquerdo Fiat Argo/Cronos -->
+    <adicao>
+      <numeroAdicao>00002</numeroAdicao>
+      <ncm>8512.2011</ncm>
+      <descricao>FAROL LADO ESQUERDO DE PLASTICO, PARA FIAT, MODELO</descricao>
+      <detalhamento>FAROL LADO ESQUERDO DE PLASTICO, PARA FIAT, MODELO: ARGO CRONOS, ANO: 2018 (59588) - COD. BBS1649001L</detalhamento>
+      <codigoProduto>34136</codigoProduto>
+      <fabricante>CHANGZHOU ZHONGLONG VEHICLE ACCESSORIES CO. LTD</fabricante>
+      <paisOrigem>China, República Popular - CN</paisOrigem>
+      <aplicacao>Revenda</aplicacao>
+      <condicao>Nova</condicao>
+      <unidade>UN</unidade>
+      <quantidade>100</quantidade>
+      <valorUnitario>7.3200</valorUnitario>
+      <valorCondicaoVenda>732.00</valorCondicaoVenda>
+      <pesoLiquido>385.00</pesoLiquido>
+      <regimeTributacaoII>RECOLHIMENTO INTEGRAL</regimeTributacaoII>
+      <regimeTributacaoIPI>RECOLHIMENTO INTEGRAL</regimeTributacaoIPI>
+      <iiAliquota>18.0</iiAliquota>
+      <iiValor>0</iiValor>
+      <ipiAliquota>5.0</ipiAliquota>
+      <ipiValor>0</ipiValor>
+      <pisAliquota>2.10</pisAliquota>
+      <pisValor>0</pisValor>
+      <cofinsAliquota>9.65</cofinsAliquota>
+      <cofinsValor>0</cofinsValor>
+      <icmsAliquota>18.0</icmsAliquota>
+      <icmsValor>0</icmsValor>
+    </adicao>
+
+    <!-- ADIÇÃO 3: Lanterna Traseira Direita Fiat Ducato -->
+    <adicao>
+      <numeroAdicao>00003</numeroAdicao>
+      <ncm>8512.2022</ncm>
+      <descricao>LANTERNA TRASEIRA LADO DIREITO DE PLASTICO, PARA FIAT, MODELO: DUCATO</descricao>
+      <detalhamento>LANTERNA TRASEIRA LADO DIREITO DE PLASTICO, PARA FIAT, MODELO: DUCATO, ANO: 2005 (57938) - COD. BBS1610003R</detalhamento>
+      <codigoProduto>29601</codigoProduto>
+      <fabricante>CHANGZHOU ZHONGLONG VEHICLE ACCESSORIES CO. LTD</fabricante>
+      <paisOrigem>China, República Popular - CN</paisOrigem>
+      <aplicacao>Revenda</aplicacao>
+      <condicao>Nova</condicao>
+      <unidade>UN</unidade>
+      <quantidade>300</quantidade>
+      <valorUnitario>1.8500</valorUnitario>
+      <valorCondicaoVenda>555.00</valorCondicaoVenda>
+      <pesoLiquido>291.00</pesoLiquido>
+      <regimeTributacaoII>RECOLHIMENTO INTEGRAL</regimeTributacaoII>
+      <regimeTributacaoIPI>RECOLHIMENTO INTEGRAL</regimeTributacaoIPI>
+      <iiAliquota>0</iiAliquota>
+      <iiValor>0</iiValor>
+      <ipiAliquota>0</ipiAliquota>
+      <ipiValor>0</ipiValor>
+      <pisAliquota>0</pisAliquota>
+      <pisValor>0</pisValor>
+      <cofinsAliquota>0</cofinsAliquota>
+      <cofinsValor>0</cofinsValor>
+      <icmsAliquota>0</icmsAliquota>
+      <icmsValor>0</icmsValor>
+    </adicao>
+
+    <!-- ADIÇÃO 4: Lanterna Traseira Esquerda Fiat Ducato -->
+    <adicao>
+      <numeroAdicao>00004</numeroAdicao>
+      <ncm>8512.2022</ncm>
+      <descricao>LANTERNA TRASEIRA LADO ESQUERDO DE PLASTICO, PARA FIAT</descricao>
+      <detalhamento>LANTERNA TRASEIRA LADO ESQUERDO DE PLASTICO, PARA FIAT, MODELO: DUCATO, ANO: 2005 (57939) - COD. BBS1610003L</detalhamento>
+      <codigoProduto>29602</codigoProduto>
+      <fabricante>CHANGZHOU ZHONGLONG VEHICLE ACCESSORIES CO. LTD</fabricante>
+      <paisOrigem>China, República Popular - CN</paisOrigem>
+      <aplicacao>Revenda</aplicacao>
+      <condicao>Nova</condicao>
+      <unidade>UN</unidade>
+      <quantidade>300</quantidade>
+      <valorUnitario>1.8500</valorUnitario>
+      <valorCondicaoVenda>555.00</valorCondicaoVenda>
+      <pesoLiquido>291.00</pesoLiquido>
+      <iiAliquota>0</iiAliquota>
+      <iiValor>0</iiValor>
+      <ipiAliquota>0</ipiAliquota>
+      <ipiValor>0</ipiValor>
+      <pisAliquota>0</pisAliquota>
+      <pisValor>0</pisValor>
+      <cofinsAliquota>0</cofinsAliquota>
+      <cofinsValor>0</cofinsValor>
+      <icmsAliquota>0</icmsAliquota>
+      <icmsValor>0</icmsValor>
+    </adicao>
+
+    <!-- ADIÇÃO 5: Lanterna Traseira Mala Direita Ford Ecosport -->
+    <adicao>
+      <numeroAdicao>00005</numeroAdicao>
+      <ncm>8512.2022</ncm>
+      <descricao>LANTERNA TRASEIRA MALA LADO DIREITO DE PLASTICO, PARA FORD</descricao>
+      <detalhamento>LANTERNA TRASEIRA MALA LADO DIREITO DE PLASTICO, PARA FORD, MODELO: ECOSPORT, ANO: 2013 (49596) - COD. BBS1126003BR</detalhamento>
+      <codigoProduto>34137</codigoProduto>
+      <fabricante>CHANGZHOU ZHONGLONG VEHICLE ACCESSORIES CO. LTD</fabricante>
+      <paisOrigem>China, República Popular - CN</paisOrigem>
+      <aplicacao>Revenda</aplicacao>
+      <condicao>Nova</condicao>
+      <unidade>UN</unidade>
+      <quantidade>20</quantidade>
+      <valorUnitario>0.4200</valorUnitario>
+      <valorCondicaoVenda>8.40</valorCondicaoVenda>
+      <pesoLiquido>4.40</pesoLiquido>
+      <iiAliquota>0</iiAliquota>
+      <iiValor>0</iiValor>
+      <ipiAliquota>0</ipiAliquota>
+      <ipiValor>0</ipiValor>
+      <pisAliquota>0</pisAliquota>
+      <pisValor>0</pisValor>
+      <cofinsAliquota>0</cofinsAliquota>
+      <cofinsValor>0</cofinsValor>
+      <icmsAliquota>0</icmsAliquota>
+      <icmsValor>0</icmsValor>
+    </adicao>
+
+    <!-- ADIÇÃO 6: Lanterna LED Direita Chevrolet Onix Plus -->
+    <adicao>
+      <numeroAdicao>00006</numeroAdicao>
+      <ncm>8512.2022</ncm>
+      <descricao>LANTERNA TRASEIRA COM LED LADO DIREITO CANTO SEDAN</descricao>
+      <detalhamento>LANTERNA TRASEIRA COM LED LADO DIREITO CANTO SEDAN DE PLASTICO, PARA CHEVROLET, MODELO: ONIX PLUS, ANO: 2020 (69163) - COD. BBS1711003DR</detalhamento>
+      <codigoProduto>34138</codigoProduto>
+      <fabricante>CHANGZHOU ZHONGLONG VEHICLE ACCESSORIES CO. LTD</fabricante>
+      <paisOrigem>China, República Popular - CN</paisOrigem>
+      <aplicacao>Revenda</aplicacao>
+      <condicao>Nova</condicao>
+      <unidade>UN</unidade>
+      <quantidade>30</quantidade>
+      <valorUnitario>1.3700</valorUnitario>
+      <valorCondicaoVenda>41.10</valorCondicaoVenda>
+      <pesoLiquido>21.60</pesoLiquido>
+      <iiAliquota>0</iiAliquota>
+      <iiValor>0</iiValor>
+      <ipiAliquota>0</ipiAliquota>
+      <ipiValor>0</ipiValor>
+      <pisAliquota>0</pisAliquota>
+      <pisValor>0</pisValor>
+      <cofinsAliquota>0</cofinsAliquota>
+      <cofinsValor>0</cofinsValor>
+      <icmsAliquota>0</icmsAliquota>
+      <icmsValor>0</icmsValor>
+    </adicao>
+
+    <!-- ADIÇÃO 7: Lanterna Fume Direita Chevrolet Vectra -->
+    <adicao>
+      <numeroAdicao>00007</numeroAdicao>
+      <ncm>8512.2022</ncm>
+      <descricao>LANTERNA TRASEIRA FUME LADO DIREITO HATCH DE PLASTICO</descricao>
+      <detalhamento>LANTERNA TRASEIRA FUME LADO DIREITO HATCH DE PLASTICO, PARA CHEVROLET, MODELO: VECTRA, ANO: 2006 (49533) - COD. BBS0414003DR</detalhamento>
+      <codigoProduto>34139</codigoProduto>
+      <fabricante>CHANGZHOU ZHONGLONG VEHICLE ACCESSORIES CO. LTD</fabricante>
+      <paisOrigem>China, República Popular - CN</paisOrigem>
+      <aplicacao>Revenda</aplicacao>
+      <condicao>Nova</condicao>
+      <unidade>UN</unidade>
+      <quantidade>204</quantidade>
+      <valorUnitario>2.1100</valorUnitario>
+      <valorCondicaoVenda>430.44</valorCondicaoVenda>
+      <pesoLiquido>226.44</pesoLiquido>
+      <iiAliquota>0</iiAliquota>
+      <iiValor>0</iiValor>
+      <ipiAliquota>0</ipiAliquota>
+      <ipiValor>0</ipiValor>
+      <pisAliquota>0</pisAliquota>
+      <pisValor>0</pisValor>
+      <cofinsAliquota>0</cofinsAliquota>
+      <cofinsValor>0</cofinsValor>
+      <icmsAliquota>0</icmsAliquota>
+      <icmsValor>0</icmsValor>
+    </adicao>
+
+    <!-- ADIÇÃO 8: Lanterna Fume Esquerda Chevrolet Vectra -->
+    <adicao>
+      <numeroAdicao>00008</numeroAdicao>
+      <ncm>8512.2022</ncm>
+      <descricao>LANTERNA TRASEIRA FUME LADO ESQUERDO HATCH DE PLASTICO</descricao>
+      <detalhamento>LANTERNA TRASEIRA FUME LADO ESQUERDO HATCH DE PLASTICO, PARA CHEVROLET, MODELO: VECTRA, ANO: 2006 (49534) - COD. BBS0414003DL</detalhamento>
+      <codigoProduto>34140</codigoProduto>
+      <fabricante>CHANGZHOU ZHONGLONG VEHICLE ACCESSORIES CO. LTD</fabricante>
+      <paisOrigem>China, República Popular - CN</paisOrigem>
+      <aplicacao>Revenda</aplicacao>
+      <condicao>Nova</condicao>
+      <unidade>UN</unidade>
+      <quantidade>144</quantidade>
+      <valorUnitario>2.1100</valorUnitario>
+      <valorCondicaoVenda>303.84</valorCondicaoVenda>
+      <pesoLiquido>159.84</pesoLiquido>
+      <iiAliquota>0</iiAliquota>
+      <iiValor>0</iiValor>
+      <ipiAliquota>0</ipiAliquota>
+      <ipiValor>0</ipiValor>
+      <pisAliquota>0</pisAliquota>
+      <pisValor>0</pisValor>
+      <cofinsAliquota>0</cofinsAliquota>
+      <cofinsValor>0</cofinsValor>
+      <icmsAliquota>0</icmsAliquota>
+      <icmsValor>0</icmsValor>
+    </adicao>
+
+    <!-- ADIÇÃO 9: Lanterna Cristal Direita Chevrolet Vectra 1996 -->
+    <adicao>
+      <numeroAdicao>00009</numeroAdicao>
+      <ncm>8512.2022</ncm>
+      <descricao>LANTERNA TRASEIRA CRISTAL E VERMELHA LADO DIREITO DE PLASTICO</descricao>
+      <detalhamento>LANTERNA TRASEIRA CRISTAL E VERMELHA LADO DIREITO DE PLASTICO, PARA CHEVROLET, MODELO: VECTRA, ANO: 1996/2000 (59005) - COD. BBS0403003CR</detalhamento>
+      <codigoProduto>34141</codigoProduto>
+      <fabricante>CHANGZHOU ZHONGLONG VEHICLE ACCESSORIES CO. LTD</fabricante>
+      <paisOrigem>China, República Popular - CN</paisOrigem>
+      <aplicacao>Revenda</aplicacao>
+      <condicao>Nova</condicao>
+      <unidade>UN</unidade>
+      <quantidade>200</quantidade>
+      <valorUnitario>0.9200</valorUnitario>
+      <valorCondicaoVenda>184.00</valorCondicaoVenda>
+      <pesoLiquido>96.00</pesoLiquido>
+      <iiAliquota>0</iiAliquota>
+      <iiValor>0</iiValor>
+      <ipiAliquota>0</ipiAliquota>
+      <ipiValor>0</ipiValor>
+      <pisAliquota>0</pisAliquota>
+      <pisValor>0</pisValor>
+      <cofinsAliquota>0</cofinsAliquota>
+      <cofinsValor>0</cofinsValor>
+      <icmsAliquota>0</icmsAliquota>
+      <icmsValor>0</icmsValor>
+    </adicao>
+
+    <!-- ADIÇÃO 10: Lanterna Cristal Esquerda Chevrolet Vectra 1996 -->
+    <adicao>
+      <numeroAdicao>00010</numeroAdicao>
+      <ncm>8512.2022</ncm>
+      <descricao>LANTERNA TRASEIRA CRISTAL E VERMELHA LADO ESQUERDO DE PLASTICO</descricao>
+      <detalhamento>LANTERNA TRASEIRA CRISTAL E VERMELHA LADO ESQUERDO DE PLASTICO, PARA CHEVROLET, MODELO: VECTRA, ANO: 1996/2000 (59006) - COD. BBS0403003CL</detalhamento>
+      <codigoProduto>34142</codigoProduto>
+      <fabricante>CHANGZHOU ZHONGLONG VEHICLE ACCESSORIES CO. LTD</fabricante>
+      <paisOrigem>China, República Popular - CN</paisOrigem>
+      <aplicacao>Revenda</aplicacao>
+      <condicao>Nova</condicao>
+      <unidade>UN</unidade>
+      <quantidade>200</quantidade>
+      <valorUnitario>0.9200</valorUnitario>
+      <valorCondicaoVenda>184.00</valorCondicaoVenda>
+      <pesoLiquido>96.00</pesoLiquido>
+      <iiAliquota>0</iiAliquota>
+      <iiValor>0</iiValor>
+      <ipiAliquota>0</ipiAliquota>
+      <ipiValor>0</ipiValor>
+      <pisAliquota>0</pisAliquota>
+      <pisValor>0</pisValor>
+      <cofinsAliquota>0</cofinsAliquota>
+      <cofinsValor>0</cofinsValor>
+      <icmsAliquota>0</icmsAliquota>
+      <icmsValor>0</icmsValor>
+    </adicao>
+
+    <!-- ADIÇÃO 11: Lanterna Traseira Direita Toyota Etios Sedan 2013 -->
+    <adicao>
+      <numeroAdicao>00011</numeroAdicao>
+      <ncm>8512.2022</ncm>
+      <descricao>LANTERNA TRASEIRA LADO DIREITO SEDAN DE PLASTICO, PARA TOYOTA</descricao>
+      <detalhamento>LANTERNA TRASEIRA LADO DIREITO SEDAN DE PLASTICO, PARA TOYOTA, MODELO: ETIOS, ANO: 2013 (54042) - COD. BBS1019003R</detalhamento>
+      <codigoProduto>33555</codigoProduto>
+      <fabricante>CHANGZHOU ZHONGLONG VEHICLE ACCESSORIES CO. LTD</fabricante>
+      <paisOrigem>China, República Popular - CN</paisOrigem>
+      <aplicacao>Revenda</aplicacao>
+      <condicao>Nova</condicao>
+      <unidade>UN</unidade>
+      <quantidade>470</quantidade>
+      <valorUnitario>1.9200</valorUnitario>
+      <valorCondicaoVenda>902.40</valorCondicaoVenda>
+      <pesoLiquido>474.70</pesoLiquido>
+      <iiAliquota>0</iiAliquota>
+      <iiValor>0</iiValor>
+      <ipiAliquota>0</ipiAliquota>
+      <ipiValor>0</ipiValor>
+      <pisAliquota>0</pisAliquota>
+      <pisValor>0</pisValor>
+      <cofinsAliquota>0</cofinsAliquota>
+      <cofinsValor>0</cofinsValor>
+      <icmsAliquota>0</icmsAliquota>
+      <icmsValor>0</icmsValor>
+    </adicao>
+
+    <!-- ADIÇÃO 12: Lanterna Traseira Esquerda Toyota Etios Sedan 2013 -->
+    <adicao>
+      <numeroAdicao>00012</numeroAdicao>
+      <ncm>8512.2022</ncm>
+      <descricao>LANTERNA TRASEIRA LADO ESQUERDO SEDAN TRES FUROS DE PLASTICO, PARA TOYOTA</descricao>
+      <detalhamento>LANTERNA TRASEIRA LADO ESQUERDO SEDAN TRES FUROS DE PLASTICO, PARA TOYOTA, MODELO: ETIOS, ANO: 2013 (54043) - COD. BBS1019003L</detalhamento>
+      <codigoProduto>33556</codigoProduto>
+      <fabricante>CHANGZHOU ZHONGLONG VEHICLE ACCESSORIES CO. LTD</fabricante>
+      <paisOrigem>China, República Popular - CN</paisOrigem>
+      <aplicacao>Revenda</aplicacao>
+      <condicao>Nova</condicao>
+      <unidade>UN</unidade>
+      <quantidade>400</quantidade>
+      <valorUnitario>1.9200</valorUnitario>
+      <valorCondicaoVenda>768.00</valorCondicaoVenda>
+      <pesoLiquido>404.00</pesoLiquido>
+      <iiAliquota>0</iiAliquota>
+      <iiValor>0</iiValor>
+      <ipiAliquota>0</ipiAliquota>
+      <ipiValor>0</ipiValor>
+      <pisAliquota>0</pisAliquota>
+      <pisValor>0</pisValor>
+      <cofinsAliquota>0</cofinsAliquota>
+      <cofinsValor>0</cofinsValor>
+      <icmsAliquota>0</icmsAliquota>
+      <icmsValor>0</icmsValor>
+    </adicao>
+
+    <!-- ADIÇÃO 13: Lanterna Fume Direita Toyota Etios Sedan 2018 -->
+    <adicao>
+      <numeroAdicao>00013</numeroAdicao>
+      <ncm>8512.2022</ncm>
+      <descricao>LANTERNA TRASEIRA LADO DIREITO SEDAN FUME DE PLASTICO, PARA TOYOTA</descricao>
+      <detalhamento>LANTERNA TRASEIRA LADO DIREITO SEDAN FUME DE PLASTICO, PARA TOYOTA, MODELO: ETIOS, ANO: 2018 (64885) - COD. BBS1019003AR</detalhamento>
+      <codigoProduto>34143</codigoProduto>
+      <fabricante>CHANGZHOU ZHONGLONG VEHICLE ACCESSORIES CO. LTD</fabricante>
+      <paisOrigem>China, República Popular - CN</paisOrigem>
+      <aplicacao>Revenda</aplicacao>
+      <condicao>Nova</condicao>
+      <unidade>UN</unidade>
+      <quantidade>50</quantidade>
+      <valorUnitario>1.9200</valorUnitario>
+      <valorCondicaoVenda>96.00</valorCondicaoVenda>
+      <pesoLiquido>50.50</pesoLiquido>
+      <iiAliquota>0</iiAliquota>
+      <iiValor>0</iiValor>
+      <ipiAliquota>0</ipiAliquota>
+      <ipiValor>0</ipiValor>
+      <pisAliquota>0</pisAliquota>
+      <pisValor>0</pisValor>
+      <cofinsAliquota>0</cofinsAliquota>
+      <cofinsValor>0</cofinsValor>
+      <icmsAliquota>0</icmsAliquota>
+      <icmsValor>0</icmsValor>
+    </adicao>
+
+    <!-- ADIÇÃO 14: Lanterna Fume Esquerda Toyota Etios Sedan 2018 -->
+    <adicao>
+      <numeroAdicao>00014</numeroAdicao>
+      <ncm>8512.2022</ncm>
+      <descricao>LANTERNA TRASEIRA LADO ESQUERDO SEDAN FUME DE PLASTICO, PARA TOYOTA</descricao>
+      <detalhamento>LANTERNA TRASEIRA LADO ESQUERDO SEDAN FUME DE PLASTICO, PARA TOYOTA, MODELO: ETIOS, ANO: 2018 (64886) - COD. BBS1019003AL</detalhamento>
+      <codigoProduto>34144</codigoProduto>
+      <fabricante>CHANGZHOU ZHONGLONG VEHICLE ACCESSORIES CO. LTD</fabricante>
+      <paisOrigem>China, República Popular - CN</paisOrigem>
+      <aplicacao>Revenda</aplicacao>
+      <condicao>Nova</condicao>
+      <unidade>UN</unidade>
+      <quantidade>50</quantidade>
+      <valorUnitario>1.9200</valorUnitario>
+      <valorCondicaoVenda>96.00</valorCondicaoVenda>
+      <pesoLiquido>50.50</pesoLiquido>
+      <iiAliquota>0</iiAliquota>
+      <iiValor>0</iiValor>
+      <ipiAliquota>0</ipiAliquota>
+      <ipiValor>0</ipiValor>
+      <pisAliquota>0</pisAliquota>
+      <pisValor>0</pisValor>
+      <cofinsAliquota>0</cofinsAliquota>
+      <cofinsValor>0</cofinsValor>
+      <icmsAliquota>0</icmsAliquota>
+      <icmsValor>0</icmsValor>
+    </adicao>
+
+  </adicoes>
+</duimp>
